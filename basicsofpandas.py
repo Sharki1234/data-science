@@ -133,6 +133,8 @@ titanic = pd.read_csv(r"C:\Users\rakhi\Downloads\titanic.csv")
 # titanic.sort_values(by = "Fare",ascending=False)
 # print(titanic[:11:])
 
-titanic["Surnames"] = titanic["Name"].str.split(" ").str.get(2)
-unique_surnames =  titanic["Surnames"].value_counts()==1
-print(unique_surnames.value_counts())
+# titanic["Surnames"] = titanic["Name"].str.split(" ").str.get(2)
+# unique_surnames =  titanic["Surnames"].value_counts()==1
+# print(unique_surnames.value_counts())
+survived= titanic[(titanic["Survived"]==1)]
+print(survived[["Sex","Survived"]].groupby("Sex").value_counts().mean())
