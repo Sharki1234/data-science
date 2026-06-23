@@ -33,9 +33,9 @@ import pandas as p
 # mpt.bar([6,7,8,9,0],[2,5,6,18,10],color = "g")
 # #mpt.bar(["Female","Male"],[17,6])
 # mpt.show()
-titanic = p.read_csv(r"C:\Users\rakhi\Downloads\titanic.csv")
-pclass_grouped = titanic["Pclass"].value_counts()
-pclass = [1,2,3]
-value = [pclass_grouped[1],pclass_grouped[2],pclass_grouped[3]]
-mpt.bar(pclass,value)
-mpt.show()
+# titanic = p.read_csv(r"C:\Users\rakhi\Downloads\titanic.csv")
+# pclass_grouped = titanic["Pclass"].value_counts()
+# pclass = [1,2,3]
+# value = [pclass_grouped[1],pclass_grouped[2],pclass_grouped[3]]
+# mpt.bar(pclass,value)
+# mpt.show()

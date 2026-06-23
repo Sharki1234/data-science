@@ -28,17 +28,17 @@ import matplotlib.pyplot as mpb
 # mpb.show()
 
 #subplot
-import numpy as np
-def f(x):
-    return np.cos(2*np.pi*x)*np.exp(-x)
-x1 = np.arange(0,5)
-x2 = np.arange(0,5)
+# import numpy as np
+# def f(x):
+#     return np.cos(2*np.pi*x)*np.exp(-x)
+# x1 = np.arange(0,5)
+# x2 = np.arange(0,5)
 
-mpb.figure()
-mpb.subplot(221)
-mpb.plot(x1,f(x1),"bo")
+# mpb.figure()
+# mpb.subplot(221)
+# mpb.plot(x1,f(x1),"bo")
 
-mpb.subplot(224)
-mpb.plot(x2,np.cos(2*np.pi*x2))
+# mpb.subplot(224)
+# mpb.plot(x2,np.cos(2*np.pi*x2))
 
-mpb.show()
+# mpb.show()
