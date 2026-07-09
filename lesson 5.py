@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -27,7 +26,6 @@ le = LabelEncoder()
 y = le.fit_transform(y)
 print(y)
 
-=======
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -56,4 +54,3 @@ le = LabelEncoder()
 y = le.fit_transform(y)
 print(y)
 
->>>>>>> 2a100f3d6b6ce1bf2454eb7243359b48ae24c89c
