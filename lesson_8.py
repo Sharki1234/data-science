@@ -24,4 +24,10 @@ figure2.add_trace(go.Scatter(x = data_dates.index,y = data_dates["New_cases"]))
 data_France = data[(data["Country"]=="France")]
 figure3 = go.Figure()
 figure3.add_trace(go.Scatter(x = data_France["DateReported"],y = data_France["New_cases"]))
-figure3.show()
+#figure3.show()
+
+data_England = data[(data["Country"]=="England")]
+figure4 = go.Figure()
+figure4.add_trace(go.scatter.Line(x = data_England["DateReported"],y =  data_England["New_cases"]))
+figure4.add_trace(go.scatter.Line(x = data_England["DateReported"],y =  data_England["New_deaths"]))
+figure4.show()
